@@ -394,8 +394,8 @@ RectTransform:
   m_Children:
   - {fileID: 1462373198}
   - {fileID: 1473713640}
-  - {fileID: 1601619219}
   - {fileID: 1051081423}
+  - {fileID: 1601619219}
   - {fileID: 1299660553}
   - {fileID: 123983364}
   - {fileID: 1127966765}
@@ -723,7 +723,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13644862, y: 0.015160799}
+  m_Offset: {x: 0.21704815, y: 0.015160799}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -734,7 +734,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8793283, y: 2.4554434}
+  m_Size: {x: 1.1723347, y: 2.4554434}
   m_EdgeRadius: 0
 --- !u!50 &394731479
 Rigidbody2D:
@@ -851,7 +851,7 @@ MonoBehaviour:
   shieldBoost: 0
   laser: {fileID: 5480796357506351470, guid: acfe9373181333f4c83101bb4d6a0583, type: 3}
   isVortexActive: 0
-  powerUpDuration: 10.6
+  powerUpDuration: 5
   powerUpTimer: 0
   timeBetweenLasers: 0
   MaxSpeed: 8
@@ -1404,8 +1404,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetList:
   - {fileID: 6428420847721863811, guid: fe7954a21239a314688243644872817b, type: 3}
-  - {fileID: 2533160295174703646, guid: 01dd5060a3c68bf4886e9c9a26e71d05, type: 3}
   - {fileID: 6645745629019639955, guid: 7197173ecbc91ef4a8647890b00162f7, type: 3}
+  - {fileID: 2533160295174703646, guid: 01dd5060a3c68bf4886e9c9a26e71d05, type: 3}
   planetTimeMin: 24
   planetTimeMax: 35
 --- !u!4 &1044164915
@@ -2914,7 +2914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23113209, g: 0.41631207, b: 1, a: 0.46666667}
+  m_Color: {r: 0.23113209, g: 0.41631207, b: 1, a: 0.68235296}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -288,7 +288,7 @@ public class PlayerController : MonoBehaviour
         {
             float gravity2 = 175f * Time.deltaTime;
             verticalSpeedTemp = this.verticalSpeed;
-            this.verticalSpeed = 8f;
+            this.verticalSpeed = 6f;
             if (this.gameObject.transform.position.y < 0)
                 rb2d.AddForce(new Vector3(0, gravity2, 0));
             else
@@ -299,7 +299,7 @@ public class PlayerController : MonoBehaviour
         {
             float gravity3 = 250f * Time.deltaTime;
             verticalSpeedTemp = this.verticalSpeed;
-            this.verticalSpeed = 6f;
+            this.verticalSpeed = 8f;
             rb2d.AddForce(new Vector3(0, -gravity3, 0));
             VelocityLimiter();
         }

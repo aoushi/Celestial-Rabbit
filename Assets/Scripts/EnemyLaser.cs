@@ -15,7 +15,7 @@ public class EnemyLaser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-7f* Time.deltaTime, 0, 0);
+        transform.Translate(-8f* Time.deltaTime, 0, 0);
         if(transform.position.x < -20) 
         { 
             Destroy(gameObject);

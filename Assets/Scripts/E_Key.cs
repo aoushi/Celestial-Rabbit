@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class E_Key : MonoBehaviour
 {
     [SerializeField] Image cooldown;
-    private float waitTime = 10.6f;
+    private float waitTime = 5.1f;
 
     void Start()
     {

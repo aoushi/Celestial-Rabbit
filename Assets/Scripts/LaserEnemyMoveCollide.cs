@@ -10,8 +10,8 @@ public class LaserEnemyMoveCollide : MonoBehaviour
     float startValue = 0;
     float endValue = 10f;
     float valueToLerp;
-    private float movementDuration = 2.0f;
-    private float waitBeforeMoving = 1f;
+    private float movementDuration = 1.0f;
+    private float waitBeforeMoving = 0.2f;
     private bool hasArrived = false;
     [SerializeField] GameObject enemyLaser;
 
